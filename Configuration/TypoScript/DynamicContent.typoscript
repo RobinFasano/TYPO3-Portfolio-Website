@@ -1,3 +1,16 @@
+#TypoScript code example for my Projects Page on my Portfolio Website
+
+lib.parallax = IMAGE
+lib.parallax {
+  file {
+    import.data = levelmedia:-1, slide
+    treatIdAsReference = 1
+    import.listNum = 0
+  }
+  params = class=""
+  wrap = <div class="parallax">|</div>
+}
+
 lib.projects = FILES
 lib.projects {
     references {
