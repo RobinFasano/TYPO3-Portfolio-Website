@@ -1,0 +1,23 @@
+<f:layout name="Default" />
+  <f:section name="Main">
+    <main>
+      <div class="parallax-container2">
+      <div class="parallax-container center-align ">
+        <f:cObject typoscriptObjectPath="lib.parallax" />
+          <div class="caption custom-light-grey">
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '5'}"/>
+          </div>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="center-align title">
+            <f:cObject typoscriptObjectPath="lib.projects"/>
+        </div>
+      </div>
+      <div class="parallax-narrow">
+        <div class="parallax-container center-align ">
+          <f:cObject typoscriptObjectPath="lib.parallax"/>
+        </div>
+      </div>
+    </main>
+  </f:section>
